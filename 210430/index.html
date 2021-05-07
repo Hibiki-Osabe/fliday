@@ -1,88 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>21/04/30</title>
-</head>
-<body>
-    <h1>見出し</h1>
+  </head>
+  <body>
+    <header>
+      <h1>見出し</h1>
+    </header>
 
-    <h2>小見出し</h2>
-    <p>ｈ１の中にｈ２がある</p>
+    <main>
+      <article>
+        <h2>HTMLについて</h2>
 
-    <ul>
-        <li>リスト</li>
-        <li>リスト</li>
-        <li>リスト</li>
-        <li>
-            <ol>リスト</ol>
-            <ol>リスト</ol>
-            <ol>リスト</ol>
-        </li>
-    </ul>
+        <section>
+          <h3>ul, ol, li リスト</h3>
+          <p>リストを表すタグ</p>
 
-    <ol>
-        <li>リンゴ</li>
-        <li>ブドウ</li>
-        <li>オレンジ</li>
-    </ol>
+          <ul>
+            <li>リスト1</li>
+            <li>リスト2</li>
+            <li>リスト3</li>
+            <li>
+              <ul>
+                <li>リスト1</li>
+                <li>リスト2</li>
+                <li>リスト3</li>
+              </ul>
+            </li>
+            <li>
+              <ol>
+                <li>リスト1</li>
+                <li>リスト2</li>
+                <li>リスト3</li>
+              </ol>
+            </li>
+          </ul>
 
-    <h4>ulリストの使用例</h4>
+          <ol>
+            <li>リスト1</li>
+            <li>リスト2</li>
+            <li>リスト3</li>
+          </ol>
+          <section>
+            <h4>ulリストの使用例</h4>
+            <ul>
+              <li>
+                SNS
+                <ul>
+                  <li><a href="https://twitter.com/kamem">twitter</a></li>
+                  <li><a href="https://github.com/kamem">github</a></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </section>
 
-<ul>
+        <section>
+          <h3>dl, dt, dd 定義付きリスト</h3>
 
-<li>SNS
+          <p>定義付きリスト</p>
 
-<ul>
+          <dl>
+            <dt>メニュ1</dt>
 
-<li><a href="https://twitter.com/kamem">twitter</a></li>
+            <dd>メニュー1の説明</dd>
 
-<li><a href="https://github.com/kamem">github</a></li>
+            <dt>メニュ2</dt>
 
-</ul>
+            <dd>メニュー2の説明</dd>
+          </dl>
 
-</li>
+          <section>
+            <h4>dlリストの使用例</h4>
 
-</ul>
+            <dl>
+              <dt>SNS</dt>
 
+              <dd><a href="https://twitter.com/kamem">twitter</a></dd>
 
+              <dd><a href="https://github.com/kamem">github</a></dd>
+            </dl>
+          </section>
+        </section>
 
-<h3>dl, dt, dd 定義付きリスト</h3>
+        <section>
+          <h3>emとstrong 強調、重要性</h3>
+          <p>
+            <em>emが強調</em>を表す <strong>strongが強い重要性</strong>を表す
+          </p>
+        </section>
 
-<p>定義付きリスト</p>
+        <section>
+          <h3>small</h3>
+          <p>
+            責・警告・法的規制・著作権・ライセンス要件などの注釈や細目を表す際に使う
+          </p>
+        </section>
 
+        <section>
+          <h3>figure, figcaption</h3>
+          <figure>
+            <img src="https://twitter.com/gnmich_0286/photo" alt="玄" />
+            <figcaption>玄</figcaption>
+          </figure>
+        </section>
 
+        <section>
+          <h3>div,span</h3>
+          <p>特に意味を示さない。なるべく使わないで一旦考える。</p>
+          <div>test</div>
+          <div>test</div>
+          <span>test</span>
+          <span>test</span>
+        </section>
+      </article>
+    </main>
 
-<dl>
-
-<dt>メニュ1</dt>
-
-<dd>メニュー1の説明</dd>
-
-
-
-<dt>メニュ2</dt>
-
-<dd>メニュー2の説明</dd>
-
-</dl>
-
-
-
-<h4>dlリストの使用例</h4>
-
-<dl>
-
-<dt>SNS</dt>
-
-<dd><a href="https://twitter.com/kamem">twitter</a></dd>
-
-<dd><a href="https://github.com/kamem">github</a></dd>
-
-</dl>
-
-
-</body>
+    <footer>
+      <p><small>&copy; copyright</small></p>
+    </footer>
+  </body>
 </html>
