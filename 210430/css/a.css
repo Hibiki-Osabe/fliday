@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #eee;
+  }
+
+  header {
+    margin: 0;
+    padding: 16px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .site-title {
+    font-size: 24px;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #fff;
+    width: 700px;
+  }
+
+  main {
+    margin: 16px;
+  }
+
+  .main-title {
+    font-size: 20px;
+    border-bottom: 2px dashed #333;
+  }
+
+  .contents-item {
+    margin: 16px 0;
+    padding: 16px;
+    border: 1px solid #fff;
+    background-color: #ccc;
+  }
+
+  .contents-item-title {
+    padding: 0 0 8px 0;
+    font-weight: normal;
+    border-bottom: 2px dotted #fff;
+  }
+
+  .contents-item-text {
+    font-size: 14px;
+  }
+
+  .contents-item-child {
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  #footer {
+    color: #fff;
+    padding: 16px;
+    background-color: #333;
+  }

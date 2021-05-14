@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/a.css" />
     <title>21/04/30</title>
   </head>
   <body>
-    <header>
-      <h1>見出し</h1>
+    <header id="header">
+      <h1 class="site-title">見出し</h1>
     </header>
 
     <main>
       <article>
-        <h2>HTMLについて</h2>
+        <h2 class="main-title">HTMLについて</h2>
 
-        <section>
-          <h3>ul, ol, li リスト</h3>
-          <p>リストを表すタグ</p>
+        <section class="contents-item">
+          <h3 class="contents-item-title">ul, ol, li リスト</h3>
+          <p class="contents-item-text">リストを表すタグ</p>
 
           <ul>
             <li>リスト1</li>
@@ -45,7 +46,7 @@
             <li>リスト3</li>
           </ol>
           <section>
-            <h4>ulリストの使用例</h4>
+            <h4 class="contents-item-child">ulリストの使用例</h4>
             <ul>
               <li>
                 SNS
@@ -58,10 +59,10 @@
           </section>
         </section>
 
-        <section>
-          <h3>dl, dt, dd 定義付きリスト</h3>
+        <section class="contents-item">
+          <h3 class="contents-item-title">dl, dt, dd 定義付きリスト</h3>
 
-          <p>定義付きリスト</p>
+          <p class="contents-item-text">定義付きリスト</p>
 
           <dl>
             <dt>メニュ1</dt>
@@ -74,7 +75,7 @@
           </dl>
 
           <section>
-            <h4>dlリストの使用例</h4>
+            <h4 class="contents-item-child">dlリストの使用例</h4>
 
             <dl>
               <dt>SNS</dt>
@@ -86,31 +87,31 @@
           </section>
         </section>
 
-        <section>
-          <h3>emとstrong 強調、重要性</h3>
+        <section class="contents-item">
+          <h3 class="contents-item-title">emとstrong 強調、重要性</h3>
           <p>
             <em>emが強調</em>を表す <strong>strongが強い重要性</strong>を表す
           </p>
         </section>
 
-        <section>
-          <h3>small</h3>
-          <p>
+        <section class="contents-item">
+          <h3 class="contents-item-title">small</h3>
+          <p class="contents-item-text">
             責・警告・法的規制・著作権・ライセンス要件などの注釈や細目を表す際に使う
           </p>
         </section>
 
-        <section>
-          <h3>figure, figcaption</h3>
+        <section class="contents-item">
+          <h3 class="contents-item-title">figure, figcaption</h3>
           <figure>
             <img src="https://twitter.com/gnmich_0286/photo" alt="玄" />
             <figcaption>玄</figcaption>
           </figure>
         </section>
 
-        <section>
-          <h3>div,span</h3>
-          <p>特に意味を示さない。なるべく使わないで一旦考える。</p>
+        <section class="contents-item">
+          <h3 class="contents-item-title">div,span</h3>
+          <p class="contents-item-text">特に意味を示さない。なるべく使わないで一旦考える。</p>
           <div>test</div>
           <div>test</div>
           <span>test</span>
@@ -119,7 +120,7 @@
       </article>
     </main>
 
-    <footer>
+    <footer id="footer">
       <p><small>&copy; copyright</small></p>
     </footer>
   </body>
