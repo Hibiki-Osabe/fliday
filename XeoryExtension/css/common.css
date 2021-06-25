@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+
+#header {
+    background-color: #47B39D;
+    height: 92px;
+    position: relative;
+}
+
+.title {
+    margin: 0 16px;
+    line-height: 92px;
+    font-size: 18px;
+}
+
+.title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.gnav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    font-size: 14px;
+}
+
+.gnav-item {
+    list-style-type: none;
+    line-height: 92px;
+}
+
+.gnav-item a {
+    padding: 0 16px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.1s ease-in;
+}
+
+.gnav-item a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main-area {
+    background-color: #41BAA4;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-title {
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.site-description {
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 2;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.entry-title {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 16px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+/* flexは用途が色々あるから混乱しがち */
+
+.entries {
+    margin: 32px auto;
+    display: flex;
+    max-width: 1200px;
+}
+
+.entry-item {
+    margin: 0 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.entry-item img {
+    width: 100%;
+    display: block;
+}
+
+.entry-item-contegary {
+    margin: 8px 0;
+}
+
+.entry-item-contegary a {
+    /* border: 1px red; */
+    background-color: #47B39D;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.entry-item-title a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.contents-title {
+    padding: 32px 0;
+    background-color: #3b4552;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+}
+
+.contents-title::after {
+    content: '';
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #3b4552;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+}
+
+.contents-title-en {
+    font-size: 13px;
+    display: block;
+}
